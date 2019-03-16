@@ -1,0 +1,35 @@
+.points-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 3px solid #330033;
+  background: #fff;
+  h4 {
+    font-size: 22px;
+  }
+  .btn {
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      transition: 0.3s;
+      .icon {
+        color: #fff;
+      }
+    }
+    
+  }
+  .btn-delete {
+    border: 1px solid #940000;
+    &:hover {
+      background: #940000;
+    }
+  }
+}
